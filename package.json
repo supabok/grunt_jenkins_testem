@@ -20,6 +20,7 @@
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-testem": "~0.3.6",
     "grunt-qunit-cov": "~0.3.2",
-    "grunt-plato": "~0.2.0"
+    "grunt-plato": "~0.2.0",
+    "jscoverage": "latest"
   }
 }
