@@ -1,10 +1,7 @@
 ok 1 - test/test.html -  PhantomJS 1.9 - test module: hello test
-not ok 2 - test/test.html -  PhantomJS 1.9 - test module2: hello test
-    ---
-        message: Passed!
-    ...
+ok 2 - test/test.html -  PhantomJS 1.9 - test module2: hello test
 
 1..2
 # tests 2
-# pass 1
-# fail 1
+# pass 2
+# fail 0
