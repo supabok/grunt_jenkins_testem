@@ -11,7 +11,7 @@
     "grunt",
     "sample"
   ],
-  "author": "sideroad",
+  "author": "supabok",
   "license": "MIT",
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.0",
