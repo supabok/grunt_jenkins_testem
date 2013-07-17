@@ -3,4 +3,4 @@ export PATH=/usr/local/bin:/path/to/node:/path/to/node_bin:/path/to/phantomjs:/p
 npm uninstall grunt
 npm install -g grunt-cli
 npm install
-grunt jenkins --no-color
+grunt jenkinsLite
