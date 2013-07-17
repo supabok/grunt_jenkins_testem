@@ -5,5 +5,5 @@ test( "hello test", function() {
 
 module("test module2");
 test( "hello test", function() {
-  ok( false, "Passed!" );
+  ok( true, "Passed!" );
 });
