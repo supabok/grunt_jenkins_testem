@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
     testem: {
       options: {
-        launch_in_ci: ['PhantomJS','Chrome']
+        launch_in_ci: ['PhantomJS']
       },
       'test/testem.tap': ['test/*.html']
     },
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-plato');
 
   // Default task(s).
-  grunt.registerTask('default', ['jshint', 'testem', 'clean']);
-  grunt.registerTask('jenkins', ['jshint', 'testem', 'clean', 'plato', 'concat', 'uglify']);
+  grunt.registerTask('default', ['jshint', 'testem', 'clean', 'qunit-cov']);
+  grunt.registerTask('jenkins', ['jshint', 'testem', 'clean', 'qunit-cov', 'plato', 'concat', 'uglify']);
 
 };
