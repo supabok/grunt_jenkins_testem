@@ -1,1 +1,7 @@
-{"launch_in_ci":["PhantomJS"],"test_page":"test/test.html"}
+{
+    "launch_in_ci":["PhantomJS"],
+    "test_page":"test/test.html",
+    "files":[
+        "test/tests.js"
+    ]
+}
