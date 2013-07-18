@@ -1,9 +1,6 @@
-ok 1 - test/test.html -  PhantomJS 1.9 - test module: hello test
-ok 2 - test/test.html -  PhantomJS 1.9 - test module2: hello tes
-ok 3 - test/test.html -  Chrome 28.0 - test module: hello test
-ok 4 - test/test.html -  Chrome 28.0 - test module2: hello tes
+ok 1 - test/test.html -  PhantomJS 1.9 - isEven()
 
-1..4
-# tests 4
-# pass 4
+1..1
+# tests 1
+# pass 1
 # fail 0

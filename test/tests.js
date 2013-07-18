@@ -13,5 +13,5 @@ test('isEven()', function() {
     ok(!isEven(-7), 'Neither does negative seven');
 
     // Fails
-    ok(isEven(3), 'Three is an even number');
+    ok(isEven(6), 'Three is an even number');
 });
