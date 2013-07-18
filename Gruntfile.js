@@ -76,6 +76,6 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['jshint', 'testem', 'clean', 'qunit-cov']);
   grunt.registerTask('jenkins', ['jshint', 'testem', 'clean', 'qunit-cov', 'plato', 'concat', 'uglify']);
-  grunt.registerTask('jenkinsLite', ['testem', 'qunit-cov', 'plato']);
+  grunt.registerTask('jenkinsLite', ['testem']);
 
 };
