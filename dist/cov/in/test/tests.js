@@ -4,6 +4,6 @@ test( "hello test", function() {
 });
 
 module("test module2");
-test( "hello test", function() {
+test( "hello tes", function() {
   ok( true, "Passed!" );
 });

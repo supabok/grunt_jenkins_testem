@@ -8,6 +8,7 @@ module.exports = function(grunt) {
       all: ['src/*.js'],
       options: grunt.file.readJSON('.jshintrc')
     },
+
     concat: {
       build: {
         files: {
@@ -18,6 +19,7 @@ module.exports = function(grunt) {
         }
       }
     },
+
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -27,12 +29,19 @@ module.exports = function(grunt) {
         dest: 'dist/<%= pkg.name %>.min.js'
       }
     },
+
     testem: {
       options: {
-        launch_in_ci: ['PhantomJS']
+        launch_in_dev: ['PhantomJS','Firefox'],
+        launch_in_ci: ['PhantomJS','Chrome'],
+          "src_files": [
+              "test/hello.js",
+              "test/hello_spec.js"
+          ]
       },
-      'test/testem.tap': ['test/*.html']
+      'test/testem.tap': ['test/test.html']
     },
+
     "qunit-cov": {
       test: {
         minimum: 0.9,
@@ -42,6 +51,7 @@ module.exports = function(grunt) {
         testFiles: ['test/*.html']
       }
     },
+
     plato: {
       options: {
         title: 'Awesome Project',
