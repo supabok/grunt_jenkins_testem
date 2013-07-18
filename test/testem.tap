@@ -1,4 +1,4 @@
-ok 1 - test/test.html -  PhantomJS 1.9 - isEven()
+ok 1 - test/test.html -  - PhantomJS  isEven()
 
 1..1
 # tests 1

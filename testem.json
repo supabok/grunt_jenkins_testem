@@ -3,5 +3,12 @@
     "test_page":"test/test.html",
     "files":[
         "test/tests.js"
+    ],
+    "src_files_ignore": [
+        "node_modules/**.json",
+        "node_modules/**.js",
+        "Gruntfile.js",
+        "package.json",
+        ".jshintrc"
     ]
 }
